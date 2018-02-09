@@ -25,13 +25,29 @@ body, html{
     position: relative;
 }
 
+.nav-item{
+  font-size:28px;
+}
+
+.nav-inactive a{
+    color:white !important;
+}
+
+#description-container h1{  
+  font-size:24px;
+  padding-bottom:15px;
+}
+
 @media only screen and (max-width: 992px) {
   .hero-image {
     background-image: linear-gradient(rgba(20,20,20, 0.2), rgba(20,20,20, 0.2)), url("../img/hero_alt.JPG");
   }
   #description-container{
     position:fixed;
-    top:10%;
+    top:20%;
+  }
+  #description-container p{
+    color:white;
   }
   .navbar{
     background:rgba(0,0,0,0.3);
@@ -39,14 +55,6 @@ body, html{
   #social-container i{
       color:white;
   }
-}
-
-.nav-item{
-  font-size:28px;
-}
-
-.nav-inactive a{
-    color:white !important;
 }
 
 @media only screen and (min-width: 992px) {
