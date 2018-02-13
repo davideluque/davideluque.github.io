@@ -1,0 +1,130 @@
+html, body{
+  height: 100%
+}
+
+
+/*
+ * Navbar
+ * -------------------------
+ */
+.navbar_home{
+  background: rgba(253,253,253,0.2);
+  min-height:70px !important;
+  -webkit-box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+}
+
+.navbar_home a{
+  font-weight: bold;
+  color: rgba(255,255,255,0.8) !important;
+}
+
+.navbar_home a:hover{
+  color: rgba(253,253,253,0.5) !important;
+}
+
+
+/*
+ * Primera fila de contenido
+ * -------------------------
+ */
+.hero-image{
+  background-image: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("../img/background.jpg");
+  height:100%;
+
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+}
+
+.hero-text{
+  text-align:center;
+  position: absolute;
+  top:25%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+
+.hero-text-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.answer-container{
+  background-color: rgba(200,200,200,0.3);
+  margin:10px;
+}
+
+.answer-column{
+  padding:15px 0 0 15px;
+}
+
+.answer-heading{
+  font-size: 24px;
+}
+
+.html5-stripe{
+  background-color:#E75710;
+  height:15px;
+}
+
+.css-stripe{
+  background-color:#305EA6;
+  height:15px;
+}
+
+.javascript-stripe{
+  background-color:#F39C11;
+  height:15px;
+}
+
+.author-stripe{
+  background-color:#df252a;
+  height:15px;
+  margin-bottom:50px;
+}
+
+
+/*
+ * Footer
+ * --------------------
+ */
+.footer{
+  background-color: #202020;
+  min-height:50px;  
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+}
+
+.footer p{
+  padding-top:1%;
+  color:white;
+}
+
+.go-up-button{
+  position:fixed;
+  bottom:15px;
+  right:20px;
+  border:none;
+  outline:none;
+  color:#df252a;
+  background-color:#222222;
+  font-size: 18px;
+  cursor:pointer;
+}

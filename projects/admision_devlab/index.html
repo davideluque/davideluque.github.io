@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta author="David Cabeza">
+	<meta description="Soluciones a la Tarea 2 de la Admisión 2018 del Devlab USB">
+
+	<!-- Bootstrap 4 CSS -->
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<!-- Tarea2 CSS -->
+	<link rel="stylesheet" href="static/css/index.css">
+
+	<title>Admisión DevLab - Tarea 2</title>
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar_home">
+  	<a class="navbar-brand" href="#">
+    	<img src="static/img/logo.png" width="70" height="70" alt="">
+    	Devlab USB
+  	</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	  	<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	  	<ul class="navbar-nav ml-auto">
+
+	  		<li class="nav-item nav-active">
+	  			<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+	  		</li>
+
+	  		<li class="nav-item nav-inactive">
+	  			<div id="nav-about-box">
+	  				<a class="nav-link" href="#answers">HTML</a>
+	  			</div>
+	  		</li>
+
+	  		<li class="nav-item nav-inactive">
+	  			<div id="nav-about-box">
+	  				<a class="nav-link" href="#answers-css">CSS</a>
+	  			</div>
+	  		</li>
+
+	  		<li class="nav-item nav-inactive">
+	  			<div id="nav-about-box">
+	  				<a class="nav-link" href="#answers-js">Javascript</a>
+	  			</div>
+	  		</li>
+	  	</ul>
+	</nav>
+	<!-- ./	navbar -->
+
+	<div class="hero-image" id="#top">
+		<div class="hero-text">
+			<h1 class="hero-heading">Respuestas de la Tarea 2</h1>
+			<a href="#answers"><button class="hero-text-button">VER RESPUESTAS</button></a>
+		</div>
+	</div>
+
+
+	<div class="html5-stripe" id="answers"></div>
+	<!-- principal container -->
+	<div class="container-fluid">
+
+	  <div class="row">
+	  	<div class="col-sm">
+	  		<h1 align="center">HTML</h1>
+	  	</div>
+	  </div>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #1 ¿Qué es una hoja de estilos o stylesheet?</h2></div>
+		  		<p>Las hojas de estilos son un conjunto de instrucciones las cuales se ocupan de los aspectos de formato y presentación de los contenidos.</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #2 Indica mediante un ejemplo cómo se carga una hoja de estilos en una página web</h2></div>
+		  		<p><xmp><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></xmp></p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #3 Indica mediante un ejemplo cómo se carga un script externo almacenado en un archivo en formato .js en una página web</h2></div>
+		  		<p><xmp><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script></xmp></p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #4 ¿Cuál es la importancia y la utilidad de las clases y los id de las etiquetas de HTML al momento de personalizar dichos elementos mediante el uso de hojas de estilo CSS?</h2></div>
+		  		<p>Las clases son útiles para aplicar estilo a un cierto grupo de elementos sin tener que repetir el código por cada elemento. También permiten hacer una distinción entre el formato y estilo de una página, y entre el diseño como tal. Los ids a pesar de que no es buena práctica aplicarle un mismo identificador a dos elementos en una misma página ya que se usan para identificar un elemento único en la página, permiten aplicar el estilo a dicho elemento separando el código del estilo del elemento como tal.</p>
+		  	</div>
+	  	</div>
+
+	</div>
+	<!-- ./principal container -->
+
+	<div class="css-stripe" id="answers-css"></div>
+	<!-- css answers container -->
+	<div class="container-fluid top-content">
+	  
+	  <div class="row">
+	  	<div class="col-sm">
+	  		<h1 align="center">CSS</h1>
+	  	</div>
+	  </div>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #1 ¿Qué son archivos CSS u hojas de estilo? ¿Por qué consideras que son útiles al momento de diseñar una página web?¿Por qué se prefiere el uso de hojas de estilo antes que el uso de estilos inline?.</h2></div>
+		  		<p>CSS se refiere a Cascading Style Sheets y describe cómo los elementos HTML se muestran en la pantalla. Puede controlar el diseño de múltiples páginas web a la vez. Las hojas CSS u hojas de estilo son archivos que dan formato a una página web mediante un conjunto de reglas que son aplicadas a los elementos de dicha página. Las hojas de estilos son vitales ya que permiten que una página web tenga una presentación más vistosa mediante la organización y aplicación de estilos de tales elementos. El uso de hojas de estilo sobre el css in-line es preferido principalmente porque permite reutilizar la misma hoja de estilos para varias partes de una misma página, por otra parte hace que el código HTML se vea más limpio y ordenado y así el trabajo queda más organizado.</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #2 ¿De cuántas formas se pueden agregar modificaciones de estilo a una página web?</h2></div>
+		  		<p>1. Hoja de estilo externa: archivo externo que se añade mediante <link href=”..”> indicado en el apartado anterior.<br>2. Hoja de estilo interna: Etiquetas <xmp><style></style></xmp>en la cabecera (head) del documento. Dentro de estas etiquetas se escribe el código CSS.<br>3. Estilo in-line con el atributo style en el elemento HTML.</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #3 Indica cuál es la sintaxis básica de una regla en CSS.</h2></div>
+		  		<p>Selector {propiedad: valor; propiedad: valor (una o más)} <br>
+							En general:<br>
+							bloqueCSS → Selector '{' declaraciones '}'<br>
+							declaraciones → declaracion declaraciones<br>
+							| declaracion<br>
+							declaracion → propiedad ':' valor ';'</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #4 Indica y explica brevemente cuáles son los selectores de CSS que consideras más importantes.</h2></div>
+		  		<p>#x ← selecciona el elemento cuyo id sea x<br>
+							.x ← selecciona elemento cuya clase sea x<br>
+							x y ← selecciona los elementos y que son descendientes de x<br>
+							x ← selecciona los elementos cuyo tipo (o tag name) sean x<br>
+							x:hover ← se aplica la clase cuando se hace focus en el elementos<br>
+							x.y ← selecciona elementos que hagan match con ambas clases x y y al mismo tiempo.</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #5 Explica cómo harías para seleccionar un elemento que posee múltiples clases dentro de una página web.</h2></div>
+		  		<p>Esto se hace con algo que se llama “intersección de clases”<br>
+					.nombreClase1.nombreClase2.nombreClase3<</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #6 Mencione y explique brevemente algunas de las propiedades CSS que consideres más importantes.</h2></div>
+		  		<p>background ← permite añadir un fondo a un elemento ya sea mediante un fondo, un degradado o un archivo externo <br>
+					color ← aplica un color a una fuente ya sea en hexadecimal, rgb, o con un nombre soportado por css.<br>
+					font-family ← define la familia de fuentes del elemento.<br>
+					font-size ← tamaño que tendrá la fuente del elemento<br>
+					border ← añade bordes a un elemento, se indica el tipo del borde (solid, dashed, etc) el grosor y un color.<br>
+					margin ← margen del elemento respecto a la ventana del navegador. Se pueden cambiar los márgenes superior, derecho, inferior e izquierdo.<br>
+					padding ← es como el margen del elemento excepto que este es calculado respecto al elemento externo más cercano a quien se le aplica esta propiedad.</p>
+		  	</div>
+	  	</div>
+
+	</div>
+	<!-- ./css answers container -->
+
+	<div class="javascript-stripe" id="answers-js"></div>
+	<!-- js answers container -->
+	<div class="container-fluid top-content">
+	  
+	  <div class="row">
+	  	<div class="col-sm">
+	  		<h1 align="center">Javascript</h1>
+	  	</div>
+	  </div>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #1 ¿Qué hace el método document.getElementById de Javascript?</h2></div>
+		  		<p>Selecciona el elemento que haga match con el ID y devuelve su objeto en el DOM. Similar al selector $(‘#id’) de jQuery.</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #2 Indica mediante un ejemplo cómo puedes obtener información de un elemento existente en una página web usando el método mencionado en la pregunta 2 de esta sección.</h2></div>
+		  		<p>email = document.getElementById(“correo_electronico”)<br>
+			      	con el método .getAttribute(“atributo”) aplicado al elemento obtenido se puede obtener la información de cualquier atributo como por ejemplo<br>
+			      	style ← devuelve el estilo del elemento<br>
+			      	class ← devuelve la clase del elemento<br>
+			      	value ← devuelve el valor del elemento</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #3 Indica mediante un ejemplo cómo puedes asignar información a un elemento existente en una página web usando el método mencionado en la pregunta 2 de esta sección.</h2></div>
+		  		<p>Con el método document.getElementById al obtener un elemento se puede utilizar .setAttribute(“atributo”, “valor”). También se puede modificar con la notación de objetos del DOM.</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #4 ¿Qué hacen los métodos alert() y console.log?</h2></div>
+		  		<p>alert(‘mensaje’) muestra en forma de cuadro de diálogo emergente en el navegador un mensaje específico. El usuario debe presionar OK para quitar el mensaje.<br>
+		  		console.log() sirve para mostrar en la consola del modo de desarrollador o debugging lo que se pase por parametro a esté metodo, ejemplo console.log(var) imprimiría en la consola el valor de var.</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #5 ¿Qué son los eventos del DOM de HTML? Mencione algunos de estos eventos y explique brevemente qué hace o significa cada uno.</h2></div>
+		  		<p>Los eventos del DOM permiten a los lenguajes que soportan la programación orientada a eventos como Javascript, ECMAScript registrar varios manejadores de eventos en los nodos del DOM.
+						Por ejemplo, se puede registrar el evento “click” en un elemento <xmp><p></xmp> de manera tal que cuando un usuario navegue por la página y haga clic en el elemento p, se desencadene una acción o función que podría manipular el DOM si se desea.
+						Algunos eventos son:<br>
+						onfocus ← cuando un usuario selecciona un campo<br>
+						onclick ← cuando un usuario hace click con el mouse en un elemento<br>
+						onsubmit ← cuando se envía un formulario<br>
+						onchange ← cuando el elemento sufre algún cambio</p>
+		  	</div>
+	  	</div>
+
+	  	<hr>
+
+	  	<div class="row answer-container">
+	  		<div class="col answer-column">
+		  		<div><h2 class="answer-heading">Pregunta #6 Explica qué hace la siguiente función en Javascript que es invocada al hacer clic en un determinado elemento de una página web:</p><p><xmp>function mistery(e) { 
+	e.preventDefault();
+	console.log(e.target.id);
+}</xmp></h2></div>
+		  		<p>La función mistery recibe un parámetro e el cual debe ser un evento ya que la función preventDefault() que es de jQuery evita que la acción que desencadene e ocurra. Luego se imprime en la consola el id del elemento que desencadenó e.</p>
+		  	</div>
+	  	</div>
+
+	</div>
+	<!-- ./js answers container -->
+
+	<div class="author-stripe"></div>
+
+	<footer class="footer">
+	      <div class="container-fluid">
+	      	<p>Copyright (C) 2018. David Cabeza</p>
+	      	<a href="#top"><button class="go-up-button" title="Subir">^</button></a>
+	      </div>
+	</footer>
+	
+	<!-- jQuery 3.2.1 slim JS -->
+	<script src="static/js/jquery-3.2.1.slim.min.js"></script>
+	<!-- Popper JS -->
+	<script src="static/js/popper.min.js"></script>
+	<!-- Bootstrap 4 JS -->
+	<script src="static/js/bootstrap.min.js"></script>
+</body>
+</html>
