@@ -30,7 +30,8 @@ html, body{
  * -------------------------
  */
 .hero-image{
-  background-image: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), url("../img/background.jpg");
+  background-image: linear-gradient(rgba(20,20,20, 0.5), rgba(20,20,20, 0.5)), 
+  url("../img/background.jpg");
   height:100%;
 
   background-attachment: fixed;
@@ -52,6 +53,16 @@ html, body{
   color:white;
 }
 
+@media only screen and (max-width: 992px) {
+.hero-text{
+  text-align:center;
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+}
 
 .hero-text-button {
   border: none;
@@ -80,16 +91,19 @@ html, body{
 .html5-stripe{
   background-color:#E75710;
   height:15px;
+  width:100%;
 }
 
 .css-stripe{
   background-color:#305EA6;
   height:15px;
+  width:100%;
 }
 
 .javascript-stripe{
   background-color:#F39C11;
   height:15px;
+  width:100%;
 }
 
 .author-stripe{

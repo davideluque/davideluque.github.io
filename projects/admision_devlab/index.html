@@ -9,7 +9,7 @@
 	<meta description="Soluciones a la Tarea 2 de la Admisión 2018 del Devlab USB">
 
 	<!-- Bootstrap 4 CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
 	<!-- Tarea2 CSS -->
 	<link rel="stylesheet" href="static/css/index.css">
 
@@ -84,7 +84,7 @@
 	  	<div class="row answer-container">
 	  		<div class="col answer-column">
 		  		<div><h2 class="answer-heading">Pregunta #2 Indica mediante un ejemplo cómo se carga una hoja de estilos en una página web</h2></div>
-		  		<p><xmp><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></xmp></p>
+		  		<p>link rel="stylesheet" href="my.css"</p>
 		  	</div>
 	  	</div>
 
@@ -93,7 +93,7 @@
 	  	<div class="row answer-container">
 	  		<div class="col answer-column">
 		  		<div><h2 class="answer-heading">Pregunta #3 Indica mediante un ejemplo cómo se carga un script externo almacenado en un archivo en formato .js en una página web</h2></div>
-		  		<p><xmp><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script></xmp></p>
+		  		<p>script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"</p>
 		  	</div>
 	  	</div>
 
@@ -169,7 +169,7 @@
 	  		<div class="col answer-column">
 		  		<div><h2 class="answer-heading">Pregunta #5 Explica cómo harías para seleccionar un elemento que posee múltiples clases dentro de una página web.</h2></div>
 		  		<p>Esto se hace con algo que se llama “intersección de clases”<br>
-					.nombreClase1.nombreClase2.nombreClase3<</p>
+					.nombreClase1.nombreClase2.nombreClase3</p>
 		  	</div>
 	  	</div>
 
@@ -213,7 +213,7 @@
 	  	<div class="row answer-container">
 	  		<div class="col answer-column">
 		  		<div><h2 class="answer-heading">Pregunta #2 Indica mediante un ejemplo cómo puedes obtener información de un elemento existente en una página web usando el método mencionado en la pregunta 2 de esta sección.</h2></div>
-		  		<p>email = document.getElementById(“correo_electronico”)<br>
+		  		<p>document.getElementById("correo")<br>
 			      	con el método .getAttribute(“atributo”) aplicado al elemento obtenido se puede obtener la información de cualquier atributo como por ejemplo<br>
 			      	style ← devuelve el estilo del elemento<br>
 			      	class ← devuelve la clase del elemento<br>
@@ -259,10 +259,10 @@
 
 	  	<div class="row answer-container">
 	  		<div class="col answer-column">
-		  		<div><h2 class="answer-heading">Pregunta #6 Explica qué hace la siguiente función en Javascript que es invocada al hacer clic en un determinado elemento de una página web:</p><p><xmp>function mistery(e) { 
+		  		<div><h2 class="answer-heading">Pregunta #6 Explica qué hace la siguiente función en Javascript que es invocada al hacer clic en un determinado elemento de una página web:</p><p>function mistery(e) { 
 	e.preventDefault();
 	console.log(e.target.id);
-}</xmp></h2></div>
+}</h2></div>
 		  		<p>La función mistery recibe un parámetro e el cual debe ser un evento ya que la función preventDefault() que es de jQuery evita que la acción que desencadene e ocurra. Luego se imprime en la consola el id del elemento que desencadenó e.</p>
 		  	</div>
 	  	</div>
