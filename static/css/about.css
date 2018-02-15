@@ -1,0 +1,122 @@
+/*
+ * ABOUT STYLE SHEET
+ *
+ * David Cabeza <cabezadavide at gmail dot com>
+*/
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+
+body, html{
+    height:100%;
+    margin:0;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*
+ * Navbar
+ * -----------------------
+*/
+.navbar{
+  background:rgba(0,0,0,0.5);
+}
+
+.navbar-nav .nav-item{
+  font-size:28px;
+  font-weight:300;
+}
+
+.navbar-nav .nav-item.nav-active a{
+  color:rgb(246,178,129);
+  border-bottom:2px solid rgb(246,178,129);
+}
+
+.navbar-nav .nav-item.nav-inactive a{
+  color:white !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-item{
+    margin:12px;
+  }
+}
+
+
+/*
+ * Hero
+ * -----------------------
+*/
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), 
+    url("../img/sat_1.jpg");
+
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*
+ * First container
+ * -----------------------
+*/
+#description-container{
+  position:fixed;
+  top:20%;
+}
+
+@media only screen and (min-width: 992px) {
+  #description-container{
+    top:40%;
+  }
+}
+
+#description-container h1{
+  font-weight: 800;
+  color:white;
+  padding-bottom:15px;
+}
+
+#description-container p{
+  color:white;
+  font-weight: 600;
+}
+
+hr{
+  color:white;
+}
+/*
+ * Footer & Social
+ * -----------------------
+*/
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+}
+
+#social-container i{
+  padding:20px;
+  font-size: 36px;
+  width: 58px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+  text-align:center;
+  color:white;
+}
+
+#social-container a{
+  color:inherit;
+}
+
+#social-container i:hover{
+  opacity: 0.7;
+}
+
+#social-container p{
+  font-size:24px;
+}
