@@ -1,0 +1,71 @@
+/*
+* PORTFOLIO STYLE SHEET
+*
+* David Cabeza <cabezadavide at gmail dot com>
+*/
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body, html{
+    height:100%;
+    margin:0;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: linear-gradient(rgba(20,20,20, 0.2), rgba(20,20,20, 0.2)), url("../img/portfolio-1.jpeg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar{
+    background:rgba(0,0,0,0.9);
+    font-size:28px;
+  }
+
+.nav-inactive a{
+    color:white !important;
+}
+
+.nav-active a{
+    border-bottom:2px solid rgba(0,0,0,0.5);
+  }
+
+#description-container h1{  
+  font-size:48px;
+  padding-bottom:15px;
+  color:white;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero-image {
+    background-image: linear-gradient(rgba(20,20,20, 0.2), rgba(20,20,20, 0.2)), url("../img/portfolio-1.jpeg");
+  }
+  #description-container{
+    position:fixed;
+    top:20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-item{
+        margin:20px 0 0 0;
+    }
+    .nav-inactive a{
+        padding-left:25px !important;
+    }
+    #description-container{
+        position:fixed;
+        top:35%;
+        left:5%;
+    }
+}
+
