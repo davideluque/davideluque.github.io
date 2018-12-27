@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 19/08/2018 00:48
+    Creation date: 24/12/2018 16:24
     */
 
     @font-face {
@@ -36,12 +36,12 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-house-plans:before { content: "\f100"; }
-.flaticon-modern-house:before { content: "\f101"; }
-.flaticon-ideas:before { content: "\f102"; }
-.flaticon-skyline:before { content: "\f103"; }
+    .flaticon-code:before { content: "\f100"; }
+.flaticon-tools:before { content: "\f101"; }
+.flaticon-joystick:before { content: "\f102"; }
+.flaticon-creative:before { content: "\f103"; }
     
-    $font-Flaticon-house-plans: "\f100";
-    $font-Flaticon-modern-house: "\f101";
-    $font-Flaticon-ideas: "\f102";
-    $font-Flaticon-skyline: "\f103";
+    $font-Flaticon-code: "\f100";
+    $font-Flaticon-tools: "\f101";
+    $font-Flaticon-joystick: "\f102";
+    $font-Flaticon-creative: "\f103";
